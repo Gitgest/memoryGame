@@ -1,0 +1,48 @@
+body{
+    background-color: #ffb366;
+    margin:0px;
+    padding:0px;
+}
+
+h1{
+    text-align: center;
+    background-color: #ffb366;
+}
+
+.game_board{
+    background-color: #ff9522;
+    align-content: center;
+    position: absolute;
+    width: 502px;
+    height: 554px;
+    left:50%;
+    right: 50%;
+    margin-left: -275px;
+    margin-right: -275px;
+}
+
+.flex-container {
+    width: 498px;
+    height: 550px;
+    justify-content: flex-start;
+    list-style: none;
+    border: 2px dashed darkgoldenrod;
+    display: flex;
+    align-self: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    border: dashed red;
+    width:100px;
+    height: 100px;
+    margin: 10px;
+    background: url("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
